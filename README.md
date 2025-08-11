@@ -18,12 +18,16 @@ C# を使ってシンプルなコンソール型ヘビゲームを実装した�
 ## 実行方法
 1. 本リポジトリをクローン  
    `git clone https://github.com/U39M/SnakeGame.git`
-2. Visual Studio や `dotnet` CLI でプロジェクトを開く  
-   `dotnet run` などを使用してゲームを起動できます。
+2. リリース用の実行ファイル `.exe` を使ってゲームを起動  
+   `Snake/bin/Release/net8.0-windows/Snake.exe` をダブルクリックするか、  
+   コマンドプロンプトから以下のように実行します：  
+   `cd Snake/bin/Release/net8.0-windows`<br>
+   `Snake.exe`
+
 
 ## 参考資料
 - 本プロジェクトの実装にあたって参考にした動画：  
-  [YouTube – Snake Game in C#](https://youtu.be/uzAXxFBbVoE?si=76_ECgoDuPQXZhaI)
+[YouTube – Snake Game in C#](https://youtu.be/uzAXxFBbVoE?si=76_ECgoDuPQXZhaI)
 
 ## 学びと工夫した点
 - コードのコメントやメソッド命名に気を配り、誰が見ても読みやすいように工夫しました。
